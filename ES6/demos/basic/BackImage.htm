@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TeeChart JavaScript Basic Example</title>
+<meta charset="UTF-8"/>
+
+<!--[if lt IE 9]>
+    <script src="../../src/excanvas/excanvas_text.js"></script>
+    <script src="../../src/excanvas/canvas.text.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../demo.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="module" src="BackImage_Main.js"></script>
+<!-- Bootstrap -->
+<link href="../3rd_party/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="../3rd_party/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<!-- NProgress -->
+<!-- Custom Theme Style -->
+<link href="../3rd_party/build/css/custom.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="right_col" role="main">
+		<div class="page-title">
+			<div class="title_left">
+				<h3>TeeChart for JavaScript <span class="smallLetters">Image form Array</span></h3>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	
+		<div class="row" id="toolbar1">
+			<div class="x_panel">
+			<div class="x_title">
+				<h2>Options <span class="smallLetters">Change the aspect of the Chart</span></h2>
+				<ul class="nav navbar-right panel_toolbox">
+					<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+					</li>
+					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+			<div class="x_content">
+				
+				<input type="checkbox" id="inv" name="inv">Inverted Axis
+				<input type="checkbox" id="legend" name="legend" checked>Legend
+				<input type="checkbox" id="series1" name="series1" checked>Series1
+				<input type="checkbox" id="series2" name="series2">Series2
+				<input type="checkbox" id="gradient1" name="gradient1" checked>Gradient
+				<input type="checkbox" id="legendshadow" name="legendshadow" checked>Legend Shadow
+				<input type="checkbox" id="coloreach">Series1 ColorEach
+				<input type="checkbox" id="pointer" checked>Series1 Pointer
+				<input type="checkbox" id="wallimage" checked>Wall Image
+				<input type="checkbox" id="stairs">Series1 Stairs
+				
+			</div>					
+			</div>
+		</div>
+			
+		<div class="row" id="toolbar2">
+			<div class="x_panel">
+				<div class="x_title">
+					<h2><span class="smallLetters">Image form Array</span></h2>
+					<ul class="nav navbar-right panel_toolbox">
+						<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+						</li>
+						<li><a class="close-link"><i class="fa fa-close"></i></a>
+						</li>
+					</ul>
+				<div class="clearfix"></div>
+				</div>
+				<div class="x_content">
+					<center>
+					<canvas id="canvas" width="600" height="400">
+					This browser does not seem to support HTML5 Canvas.
+					</canvas>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>TeeChart JavaScript Gauges Example</title>
+
+<meta charset="UTF-8"/>
+<!--[if lt IE 9]>
+    <script src="../../src/excanvas/excanvas_text.js"></script>
+    <script src="../../src/excanvas/canvas.text.js"></script>
+<![endif]-->
+
+      <!-- Bootstrap 4 CDN - Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+      <!-- Bootstrap 4 CDN - jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <!-- Bootstrap 4 CDN - Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+      <!-- Bootstrap 4 CDN - Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <!-- Font Awesome -->      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	  <!-- Custom Theme Style -->
+	  <link rel="stylesheet" href="../3rd_party/build/css/custom.min.css">
+	  <link rel="stylesheet" type="text/css" href="../demo.css">
+
+	  <!-- Custom JS -->
+	  <script type="module" src="gauges_main.js"></script>
+
+</head>
+<body>
+
+<div class="right_col" role="main">
+		<div class="page-title">
+			<div class="title_left">
+				<h3>TeeChart for JavaScript <span class="smallLetters">Gauges</span></h3>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	
+		<div class="row" id="toolbar1">
+			<div class="x_panel">
+				<div class="x_title">
+					<h2>Options <span class="smallLetters">Change the aspect of the Gauge 1</span></h2>
+					<ul class="nav navbar-right panel_toolbox">
+						<li><a class="collapse-link"><i id="icon1" class="fa fa-chevron-up"></i></a>
+						</li>
+						<li><a class="close-link"><i class="fa fa-close"></i></a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div id="optionsDiv">
+					<div id="divconfig" style="float:left; margin-right:16px; display:none;">
+					Min:<input type="text" size="5" id="min"><br/>
+					Max:<input type="text" size="5" id="max"><br/>
+					Step:<input type="text" size="5" id="step"><br/>
+					<br/>
+					<canvas id="config" width="320" height="450">
+					</canvas>
+					</div>
+				</div>					
+			</div>
+		</div>
+			
+
+		<div class="row" id="toolbar3">
+			<div class="x_panel">
+				<div class="x_title">
+					<h2><span class="smallLetters">Gauge1</span></h2>
+					<ul class="nav navbar-right panel_toolbox">
+						<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+						</li>
+						<li><a class="close-link"><i class="fa fa-close"></i></a>
+						</li>
+					</ul>
+				<div class="clearfix"></div>
+				</div>
+				<div>
+					<canvas id="canvas1" width="600" height="400">
+					</canvas>
+				</div>
+			</div>
+		</div>
+		
+		<div class="clearfix"></div><div class="row" id="toolbar2">
+			<div class="x_panel">
+				<div class="x_title">
+					<h2><span class="smallLetters">Gauge2</span></h2>
+					<ul class="nav navbar-right panel_toolbox">
+						<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+						</li>
+						<li><a class="close-link"><i class="fa fa-close"></i></a>
+						</li>
+					</ul>
+				<div class="clearfix"></div>
+				</div>
+				<div>
+					<canvas id="canvas2" width="600" height="400">
+					</canvas>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	
+    <!-- Custom Theme Scripts -->
+    <script src="../3rd_party/build/js/custom.min.js"></script>	
+
+</body>
+</html>

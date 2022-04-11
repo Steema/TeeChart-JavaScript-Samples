@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TeeChart JavaScript Horizontal Area Series Example</title>
+
+<meta charset="UTF-8"/>
+<!--[if lt IE 9]>
+    <script src="../../../src/excanvas/excanvas_text.js"></script>
+    <script src="../../../src/excanvas/canvas.text.js"></script>
+<![endif]-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="module" src="horizarea_main.js"></script>
+
+<!-- Bootstrap -->
+<link href="../../3rd_party/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="../../3rd_party/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Custom Theme Style -->
+<link href="../../3rd_party/build/css/custom.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../demo.css">
+</head>
+<body>
+	<div class="right_col" role="main">
+		<div class="page-title">
+			<div class="title_left">
+				<h3>TeeChart for JavaScript <span class="smallLetters">Horizontal Area</span></h3>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	
+		<div class="row">
+			<div class="x_panel">
+				<div class="x_title">
+					<h2>Options <span class="smallLetters">Change the aspect of the Chart</span></h2>
+					<ul class="nav navbar-right panel_toolbox">
+						<li><a class="collapse-link" id="showHide1"><i class="fa fa-chevron-up"></i></a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="x_content">
+					<input type="checkbox" id="legend" checked>Legend
+					<input type="checkbox" id="series1" checked>Series1
+					<input type="checkbox" id="series2" checked>Series2
+					&nbsp; Stacked:
+					<select id="stacked" >Stacked:
+					  <option value="no">No</option>
+					  <option value="yes">Yes</option>
+					  <option value="100">100%</option>
+					</SELECT>
+					<input type="checkbox" id="gradient1">Gradient
+					<input type="checkbox" id="shadow" checked>Shadow
+					<input type="checkbox" id="marks">Marks
+					<input type="checkbox" id="clip" checked>Clip
+					<input type="checkbox" id="smooth">Smooth
+
+				</div>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="x_panel">
+				<div class="x_title">
+					<h2><span class="smallLetters">Horizontal Area</span></h2>
+					<ul class="nav navbar-right panel_toolbox">
+						<li><a class="collapse-link" id="showHide2"><i class="fa fa-chevron-up"></i></a>
+						</li>
+					</ul>
+				<div class="clearfix"></div>
+				</div>
+				<div class="x_content">
+					<canvas id="canvas" height="500">
+					</canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

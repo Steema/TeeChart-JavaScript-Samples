@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TeeChart JavaScript Title and Footer Example</title>
+
+<meta charset="UTF-8"/>
+<!--[if lt IE 9]>
+    <script src="../../src/excanvas/excanvas_text.js"></script>
+    <script src="../../src/excanvas/canvas.text.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../demo.css">
+<script type="module" src="TitleFooter_Main.js"></script>
+
+<!-- Bootstrap -->
+<link href="../3rd_party/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="../3rd_party/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Custom Theme Style -->
+<link href="../3rd_party/build/css/custom.min.css" rel="stylesheet">
+
+</script>
+</head>
+<body>
+	<div class="right_col" role="main">
+		<div class="page-title">
+			<div class="title_left">
+				<h3>TeeChart for JavaScript <span class="smallLetters">Title and Footer</span></h3>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	
+		<div class="row" id="toolbar1">
+			<div id="optionPanel" class="x_panel">
+			<div class="x_title">
+				<h2>Options <span class="smallLetters">Change the aspect of the Chart</span></h2>
+				<ul class="nav navbar-right panel_toolbox">
+					<li><a class="collapse-link" id="showHide1"><i class="fa fa-chevron-up"></i></a>
+					</li>
+					<li><a class="close-link"><i class="fa fa-close"></i></a>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+			<div class="x_content">
+				Title: <input type="checkbox" id="titleExpand">Expand
+				<select id="titleAlign">
+				  <option value="left">Left</option>
+				  <option value="center" selected>Center</option>
+				  <option value="right">Right</option>
+				</select>
+				<input type="checkbox" id="titleShadow" checked>Shadow
+				<input type="checkbox" id="titleTransp" checked>Transparent
+				
+				Footer: <input type="checkbox" id="footerExpand">Expand
+				<select id="footerAlign">
+				  <option value="left">Left</option>
+				  <option value="center" selected>Center</option>
+				  <option value="right">Right</option>
+				</select>
+				<input type="checkbox" id="footerShadow" checked>Shadow
+				<input type="checkbox" id="footerTransp" checked>Transparent
+				
+				<input type="checkbox" id="shadow" checked>Shadow
+				<input type="checkbox" id="border">Border
+				<input type="checkbox" id="round" checked>Round
+				<input type="checkbox" id="gradient" checked>Gradient
+				<input type="checkbox" id="transparent">Transparent
+			</div>					
+			</div>
+		</div>
+			
+		<div class="row" id="toolbar2">
+			<div id="canvasPanel" class="x_panel">
+				<div class="x_title">
+					<h2><span class="smallLetters">Title and Footer</span></h2>
+					<ul class="nav navbar-right panel_toolbox">
+						<li><a class="collapse-link" id="showHide2"><i class="fa fa-chevron-up"></i></a>
+						</li>
+						<li><a class="close-link"><i class="fa fa-close"></i></a>
+						</li>
+					</ul>
+				<div class="clearfix"></div>
+				</div>
+				<div class="x_content">
+					<canvas id="canvas" width="600" height="400">
+					This browser does not seem to support HTML5 Canvas.
+					</canvas>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+	</div>
+</body>
+</html>

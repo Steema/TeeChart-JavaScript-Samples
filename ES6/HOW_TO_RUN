@@ -1,0 +1,12 @@
+To run with node.js on Windows
+1) install nvm-windows (here: https://github.com/coreybutler/nvm-windows/releases)
+2) go to root folder (steemaversion_es6)
+3) run 'nvm install latest'
+4) type 'nvm use X.X.X' (where X.X.X is the version you've just installed)
+4) run 'npm start'
+5) open browser at localhost:10000
+
+To run with node.js on Linux
+1) run 'npm install'
+2) run 'npm start'
+3) open browser at localhost:10000

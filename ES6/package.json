@@ -1,0 +1,21 @@
+{
+  "name": "steemaversion_es6",
+  "version": "1.2.8",
+  "description": "TeeChart(tm) for JavaScript(tm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "TeeChart",
+    "Chart",
+    "Charting"
+  ],
+  "author": "Steema Software SL.",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "dependencies": {
+    "express": "^4.17.1",
+    "latest": "^0.2.0"
+  }
+}
