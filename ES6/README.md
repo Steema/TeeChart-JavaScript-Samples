@@ -1,15 +1,10 @@
 <a href="https://www.steema.com/product/html5">
 <img align="right" src="https://www.steema.com/img/logos/teechart_html5.png">
 </a>
+ 
+Steema Software opensourced the ES5 encoded library on march 2018 but still offers support enhancements and the ES6 encoded version to registered subscribers, see [paid support subscriptions](https://www.steema.com/product/html5#pricing).
 
-100% JavaScript charting library using the HTML5 Canvas.
-
-## History
-
-TeeChartJS comes from [TeeChart JavaScript/HTML5](https://www.steema.com/product/html5), a library initially written by [David Berneda](https://github.com/davidberneda) on 2012 and maintained by the team at [Steema Software](https://www.steema.com).  
-Steema Software opensourced the library on march 2018 but still offers [paid support subscriptions](https://www.steema.com/product/html5#pricing).
-
-This version, the first pre-release version of the ES6 format code, permits use of modules in project space. The ES6 version is a Steema commercial producc, available with 100% sourcecode to registered customers and subject to the licensing conditions described [here](https://www.steema.com/licensing/html5). 
+This version, the first pre-release version of the ES6 format code, permits use of modules in project space. The ES6 version is part of the Steema commercial product, available with 100% sourcecode to registered customers and subject to the licensing conditions described [here](https://www.steema.com/licensing/html5). 
 
 ## [Live ES6 Demo](https://www.steema.com/files/public/teechart/html5/es6/demos/)
 
